@@ -1,0 +1,36 @@
+@media screen and (max-width: 640px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block !important;
+	}
+	.mobile_only {
+		display: none !important;
+	}
+	.tablet {
+		display: none !important
+	}
+	.no_desktop {
+		display: block
+	}
+	.no_mobile {
+		display: none
+	}
+	
+	.header-main #home-btn {
+		display: inline-block;
+		background: url(../images/logo_md_wo_name.png) no-repeat;
+		background-size: 77px 65px;
+		width: 77px;
+		margin-left: 1em;
+	}
+	
+	.header-main .nav-toggle{
+		margin-right: 1em;
+	}
+
+	.tip {
+		display: none;
+	}
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+	body {
+		-webkit-text-size-adjust: none;
+		overflow-x: hidden;
+	}
+	select:focus,textarea:focus,input:focus {
+		font-size: 1.6rem;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block !important;
+	}
+	.mobile_only {
+		display: none !important;
+	}
+	.tablet {
+		display: block !important;
+	}
+}
